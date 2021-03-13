@@ -27,7 +27,7 @@ app.use(passport.initialize());
 //passport config
 require('./config/passport')(passport);
 
-// routes
+// routes Api
 app.use('/api/admins', admins);
 app.use('/api/students', students);
 
