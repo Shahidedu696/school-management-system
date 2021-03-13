@@ -1,3 +1,4 @@
+//Condition for filtering using multipule Fileds
 const FilterSearch = (search) => {
 
     const filteredSearchInput = {};
