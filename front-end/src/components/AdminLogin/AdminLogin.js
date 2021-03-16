@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { connect } from 'react-redux';
 import { loginAdmin } from '../../actions/adminActions';
-
+//admin Login starts
 class AdminLogin extends Component {
 
     state = {
