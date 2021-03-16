@@ -2,7 +2,7 @@ import axios from 'axios';
 import { GET_ADMIN, GET_ERRORS } from './types';
 import jwt_decode from 'jwt-decode';
 import setAdminToken from '../utils/setAdminToken';
-
+//APi setup 
 export const loginAdmin = (adminData) => (dispatch) => {
     axios
         .post('/api/admins/login', adminData)
