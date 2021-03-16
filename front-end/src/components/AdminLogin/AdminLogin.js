@@ -18,6 +18,7 @@ class AdminLogin extends Component {
             this.props.history.push('/dashboard');
         }
     }
+//admin Props Control
 
     // componentWillReceiveProps(nextProps) {
     //     if(nextProps.errors) {
