@@ -57,7 +57,7 @@ class AdminLogin extends Component {
         this.props.loginAdmin(adminData);
 
     }
-
+//admin route restruction added
     render() {
 
         const { errors } = this.state;
